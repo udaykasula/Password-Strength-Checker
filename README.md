@@ -12,14 +12,19 @@ Password Strength Checker is an interactive web app built with Streamlit that ev
 The app evaluates passwords based on criteria like length, character diversity, and pattern complexity. It highlights weaknesses and provides practical tips for improvement, such as adding numbers, symbols, or mixed cases.
 
 🖥️ Installation and Usage
+
 Clone the Repository:
-git clone https://github.com/yourusername/password-strength-checker.git
+https://github.com/udaykasula/Password-Strength-Checker.git
 cd password-strength-checker
+
 Install Dependencies:
 pip install -r requirements.txt
+
 Run the Streamlit App:
 streamlit run app.py
+
 Open your browser at http://localhost:8501.
+
 📚 Tech Stack
 🐍 Python
 🌐 Streamlit (for UI)
