@@ -99,3 +99,8 @@ st.link_button("Visit Instagram🅾", "https://www.instagram.com/uday_kasula_?ig
     
 #     webbrowser.open_new_tab("https://www.instagram.com/uday_kasula_?igsh=cTBsbTh1dzNwaHcw")
     # st.write("<a>https://www.instagram.com/uday_kasula_?igsh=cTBsbTh1dzNwaHcw</a>",unsafe_allow_html=True)
+st.write("🛡️ How Should a Strong Password Be?")
+st.write("✅ Length: At least 12–16 characters.")
+st.write("✅ Complexity: Use a mix of uppercase, lowercase, numbers, and symbols.")
+st.write("✅ Unpredictability: Avoid common words, names, or dates.")
+st.write("✅ Uniqueness: Use different passwords for each account.")
