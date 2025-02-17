@@ -72,8 +72,8 @@ col1, col2, col3 = st.columns([1,2,1])
 def show_feedback():
     st.markdown('<p style="color:purple; font-size:20px;">Suggestions to Improve</p>', unsafe_allow_html=True)
 
-# show_feedback()
-# st.link_button("Visit Instagram🅾", "https://www.instagram.com/uday_kasula_?igsh=cTBsbTh1dzNwaHcw")
+show_feedback()
+st.link_button("Visit Instagram🅾", "https://www.instagram.com/uday_kasula_?igsh=cTBsbTh1dzNwaHcw")
 
 # if 'show_snow' not in st.session_state:
 #     st.session_state.show_snow = False
@@ -90,11 +90,12 @@ def show_feedback():
 # def show_feedback():
 #     st.markdown('<p style="color:purple; font-size:20px;">Suggestions to Improve</p>', unsafe_allow_html=True)
 
-st.markdown('<p style="color:purple; font-size:20px;">Suggestions to Improve</p>', unsafe_allow_html=True)
-if st.button("Visit Instagram 🅾"):
-    with st.spinner('Loading Instagram... 🚀'):
-        time.sleep(2)  # Simulate loading time
-    st.success('Ready to launch! 🌟')
-    time.sleep(0.5)
+# st.markdown('<p style="color:purple; font-size:20px;">Suggestions to Improve</p>', unsafe_allow_html=True)
+# if st.button("Visit Instagram 🅾"):
+#     with st.spinner('Loading Instagram... 🚀'):
+#         time.sleep(2)  # Simulate loading time
+#     st.success('Ready to launch! 🌟')
+#     time.sleep(0.5)
     
-    webbrowser.open_new_tab("https://www.instagram.com/uday_kasula_?igsh=cTBsbTh1dzNwaHcw")
+#     webbrowser.open_new_tab("https://www.instagram.com/uday_kasula_?igsh=cTBsbTh1dzNwaHcw")
+    # st.write("<a>https://www.instagram.com/uday_kasula_?igsh=cTBsbTh1dzNwaHcw</a>",unsafe_allow_html=True)
